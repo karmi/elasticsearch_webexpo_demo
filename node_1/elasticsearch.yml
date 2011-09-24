@@ -1,0 +1,9 @@
+cluster:
+  name: webexpo_demo_cluster
+
+node:
+  name: "Karmi"
+
+path:
+  logs: ./logs
+  data: ./data
