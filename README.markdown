@@ -38,7 +38,7 @@ _Browser_:
 
     [KARMI] Index new document, `{"title" : "Hello Red Cluster!"}`
 
-    [LUKÁŠ] Search for the newly added document.
+    [LUKÁŠ] Search for the newly added document, "hello"
 
     [LUKÁŠ] Start node 2
             Bigdesk, health is _green_
@@ -52,3 +52,8 @@ _Browser_:
     [LUKÁŠ] Kill node 2
             Bigdesk, cluster health is still _green_
 
+    [KARMI] Kill node 3
+
+    [LUKÁŠ] Bigdesk, yellow
+            Count, 90,000
+            Search document "hello"
